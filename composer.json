@@ -1,0 +1,16 @@
+{
+    "name": "peak-xin/msg-sender",
+    "description": "msg-sender是一款web长连接推送框架，采用PHPSocket.IO开发，基于WebSocket长连接通讯，如果浏览器不支持WebSocket则自动转用comet推送。 通过后台推送消息，消息可以即时推送到客户端，非轮询，实时性非常好，性能很高。",
+	"keywords": ["msg", "sender"],
+	"homepage": "https://github.com/xinyflove",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peak Xin",
+            "email": "xinyflove@sina.com"
+        }
+    ],
+	"require": {
+        "workerman/phpsocket.io" : ">1.0.0"
+    }
+}
